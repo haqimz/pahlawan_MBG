@@ -8,7 +8,7 @@ import streamlit as st
 import requests
 
 # ── Konfigurasi ────────────────────────────────────────────────────────────────
-API_URL = "https://pahlawanmbg.up.railway.app/predict"
+API_URL = "http://localhost:8000/predict" 
 
 # ── Daftar item yang ada di dataset (dari normalisasi Bagian 2) ────────────────
 DAFTAR_ITEM = sorted([
